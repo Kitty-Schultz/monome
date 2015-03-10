@@ -1,0 +1,33 @@
+body {
+	background: url(resources/panel.gif) repeat;
+}
+
+#wrapper {
+	padding: 10px;
+	margin: 50px;
+	background: url(resources/black.png) repeat;
+	display: inline-block;
+	width: 480px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+
+.square {
+	float: left;
+	background-image: url(resources/squares.png);
+	height: 30px;
+	width: 30px;
+}
+
+.square.on {
+	background: url(resources/squares.png) 0 30px;
+}
+
+.square.mid {
+	background: url(resources/squares.png) 0 60px;
+}
+
+br.clear {
+	clear: both;
+}
